@@ -32,7 +32,7 @@ public class Task_03 {
 		   		temp /= 10;
 		    }
 		    if (sumPower == currentNum) {
-		    	System.out.printf("%d = %d\n", i, sumPower);
+		    	System.out.printf("%d -> %d\n", i, sumPower);
 		    	i ++;
 		    }		    		    		
 	    }
