@@ -26,6 +26,7 @@ public class Task_03 {
 		double three_digit=0;	
 		int i = 0;
 		int num = 0;
+		//int count = 0;
 		int[] array200Rand = new int[SIZE];
 		
 		Random rand = new Random();
@@ -34,7 +35,8 @@ public class Task_03 {
 			
 			array200Rand[i] = rand.nextInt(201);
 			num = array200Rand[i];
-			int j=0;	    
+			int j=0;
+			//count++;
 			for (; num > 0; j++)
 	        {
 	            num/=10;     
@@ -64,26 +66,7 @@ public class Task_03 {
 	    System.out.printf("digit 1 = %.1f\n", digit1);
 	    System.out.printf("digit 2 = %.1f\n", digit2);
 	    System.out.printf("digit 3 = %.1f\n", digit3);
-
-	
-		
-		
-		
-		//		Scanner sc = new Scanner(System.in);System.out.println("введите число: ");
-//		int num = sc.nextInt();
-//		
-//		int index = -1;
-//		for (int i = 0; i < array200Rand.length && index == -1; i++) {
-//			if (num == array200Rand[i]) {
-//				index = i;
-//			}
-//		}
-//		if (index < 0) {
-//			System.out.println("число не найдено!");
-//		}
-//		else {
-//			System.out.printf("number[%d] = %d \n", index, num);
-//		}
+	    //System.out.printf("count = %d\n", count);
 		
 		System.out.println(Arrays.toString(array200Rand));
 	}
