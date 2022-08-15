@@ -14,7 +14,6 @@ public class Task_03 {
 
 	public static void main(String[] args) {
 
-
 		Scanner sc = new Scanner (System.in);
 		
 		System.out.print("Введите высоту треугольника: ");	

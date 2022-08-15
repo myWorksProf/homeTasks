@@ -41,7 +41,7 @@ public class Task_03 {
 	        {
 	            num/=10;     
 	        }
-	            if (j==1)
+	            if (j<=1)
 	        {
 	            single_digit+=1;
 	        }

@@ -26,7 +26,7 @@ public class Task_11 {
 				System.out.println("fizz");		//" Т Р И ");//
 			}
 			else {
-				System.out.println("число ->" + i );
+				System.out.println( i );
 			}
 		}
 		   System.out.println("Конец программы!");	

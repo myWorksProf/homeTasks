@@ -24,17 +24,7 @@ public class Task_10 {
 				if (count == 19) {
 					System.err.println("наименьшее число ->   " + i);
 					break;
-				}
-
-//				if (i % 100_000_000 == 0) {
-//					limonCount++;
-//					System.out.printf("%d_000_000\n", limonCount);
-//					System.out.printf("i ->  %d\n", i);
-//					
-//				}
-//				//System.out.printf("i ->  %d\n", i);
-			
-			
+				}			
 			}
 			System.out.println("Конец программы!");	
     }
