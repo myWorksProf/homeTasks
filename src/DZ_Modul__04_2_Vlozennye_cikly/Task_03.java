@@ -24,29 +24,29 @@ public class Task_03 {
 
 		for (int i = 1; i < height; i++) {
 			for (int j = i + 1; j <= height; j++) {
-				System.out.print("  ");
+				System.out.print(" ");
 			}
-			System.out.print("* ");
+			System.out.print("*");
 			
 			for (int j = 1; j <= i - 1; j++) {
-				System.out.print(fill == 1 ? ". " : "  ");
+				System.out.print(fill == 1 ? "*" : " ");
 			}
 
 			for (int k = i; k <= i ; k++) {
 				for (int j = 1; j < k - 1; j++) {
-					System.out.print(fill == 1 ? ". " : "  ");
+					System.out.print(fill == 1 ? "*" : " ");
 				}
 				
 				for (int j =  k-1; j < k; j++) {
 					if (j > 0) {
-						System.out.print("* ");
+						System.out.print("*");
 					}
 				}
 				System.out.print("\n");
 		
 			}
 		}
-		for (int i = 1; i <= height * 2 -1; i++) {
+		for (int i = 1; i <= height; i++) {
 			System.out.print("* ");
 		}
 	}

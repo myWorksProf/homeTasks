@@ -19,7 +19,7 @@ public class Task_09 {
 		
 		System.out.print("Введите количество ярусов: ");	
 		int  tiers= sc.nextInt();
-		System.out.print("Введите высоту треугольника: ");	
+		System.out.print("Введите высоту первого яруса: ");	
 		int  height= sc.nextInt();
 		sc.close();
 		
