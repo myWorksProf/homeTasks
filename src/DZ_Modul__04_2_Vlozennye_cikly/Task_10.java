@@ -13,10 +13,10 @@ public class Task_10 {
 
 	public static void main(String[] args) {
 
-		System.out.print("Введите любое положительное число:");
+		System.out.print("Введите любое положительное число:  ");
 		Scanner sc = new Scanner(System.in);
 		String strDigit = sc.nextLine();
-
+		sc.close();
 			for (int i = 1; i < 8; i++) {
 				for (int j = 0; j < strDigit.length(); j++) {
 					//char strJ = strDigit.charAt(j);
