@@ -1,6 +1,4 @@
 package DZ_Modul__04_1_Cikly;
-
-public class Task_11 {
 	
 //		Домашнее задание No 4.1
 //			Задание 11
@@ -9,6 +7,8 @@ public class Task_11 {
 //				программа должна выводить слово fizz, а вместо чисел, 
 //				кратных	пяти – слово buzz. Если число кратно пятнадцати, 
 //				то программа должна выводить вместо числа слово hiss. 	
+
+public class Task_11 {
 
 	public static void main(String[] args) {
 

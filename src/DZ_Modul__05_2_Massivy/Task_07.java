@@ -41,11 +41,12 @@ public class Task_07 {
 				}
 				
 			}
+			
 			if (countJ == 1 && massN[i] != 0) {
 				num = massN[i];
 			}
 			if (massN[i] != 0) {
-				System.out.printf("\n%2d -- %2d раз", num, countJ);	
+				System.out.printf("\n%2d --> %2d раз", num, countJ);	
 			}
 			
 			num = 0;

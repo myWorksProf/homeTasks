@@ -17,17 +17,20 @@ public class Task_05 {
 
 	public static void main(String[] args) {
 
-//		Random rand = new Random();
-//		int[] mass10 = new int[10];
-		int[] mass10 = new int[] {-1, -6, 0, 5, 0, -9, -2, -1, -1, -2};
+		Random rand = new Random();
+		int[] mass10 = new int[10];
+//		int[] mass10 = new int[] {-1, -6, 0, 5, 0, -9, -2, -1, -1, -2};
+
+		
+		
+		for (int i = 0; i < mass10.length; i++) {
+			mass10[i] = rand.nextInt(21) -10;
+		}
+		System.out.println("исходный массив : \n" + Arrays.toString(mass10));
+		
 		int countJ = 0;
 		int num = 0;
 		boolean flag = false;
-		
-//		for (int i = 0; i < mass10.length; i++) {
-//			mass10[i] = rand.nextInt(21) -10;
-//		}
-		System.out.println("исходный массив : \n" + Arrays.toString(mass10));
 		
 		for (int i = 0; i <mass10.length; i ++) {
 			for (int j = i + 1; j < mass10.length; j++) {

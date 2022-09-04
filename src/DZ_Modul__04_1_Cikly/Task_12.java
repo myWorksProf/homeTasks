@@ -1,15 +1,15 @@
 package DZ_Modul__04_1_Cikly;
 
-import java.util.Scanner;
-
-public class Task_12 {
-
 //		Домашнее задание No 4.1
 //			Задание 12
 //				В первый день спортсмен пробежал x километров, а затем 
 //				он каждый день увеличивал пробег на 10% от предыдущего 
 //				значения. По числу, указанному с клавиатуры y, определите 
 //				номер дня, на который пробег спортсмена составит не менее y километров.	
+
+import java.util.Scanner;
+
+public class Task_12 {
 
 	public static void main(String[] args) {
 
