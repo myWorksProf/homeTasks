@@ -27,7 +27,7 @@ public class Task_04 {
 		int result = num ^ (1 << bit);
 		
 		System.out.println("измененное значение:   " + Integer.toBinaryString(result));
-		System.out.println("		   :    9876543210");
+		//System.out.println("		   :    9876543210");
 
 	}
 

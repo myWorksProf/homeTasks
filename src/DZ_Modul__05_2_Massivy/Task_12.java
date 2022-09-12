@@ -1,5 +1,8 @@
 package DZ_Modul__05_2_Massivy;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 //	Домашнее задание № 5.2
 //		МАССИВЫ
 //			Задание 12
@@ -18,9 +21,14 @@ public class Task_12 {
 
 		int[] mass = new int[] {1, 2, 3, 4, 3, 2, 1};
 		
+		System.out.println("Вывести симметричный массив : \n 1 - Да\n 2 - Нет");
+		Scanner sc = new Scanner(System.in);
+		int negativ = sc.nextInt();
 		boolean flag = false;
 		int halfMass = 0;
-		
+		if (negativ == 2) {
+			mass[2] = -4;
+		}
 		if (mass.length % 2 != 0) {
 
 			halfMass = (mass.length - 1) / 2;
@@ -37,7 +45,8 @@ public class Task_12 {
 				flag = true;
 			}
 		}
-System.out.println(flag? "Yes" : "No");
+		System.out.println("исходный массив " + Arrays.toString(mass));
+		System.out.println(flag? "Yes" : "No");
 	}
 
 }

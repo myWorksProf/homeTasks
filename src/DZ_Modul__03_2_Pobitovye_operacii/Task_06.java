@@ -24,11 +24,9 @@ public class Task_06 {
 
 		System.out.println("исходное значение:     " + Integer.toBinaryString(num));
 		
-		int result =  ~(num >> bit) & num;
-		System.out.println("измененное значение:   " + Integer.toBinaryString(result));
-		result = result << bit;
+		int result = num &  ((1 << bit) - 1);
 		
-		System.out.println("измененное значение 1:   " + Integer.toBinaryString(result));
+		System.out.println("измененное значение:   " + Integer.toBinaryString(result));
 		
 
 	}
